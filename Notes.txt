@@ -1,0 +1,21 @@
+>>>>>> How to use media queries scss (https://davidwalsh.name/write-media-queries-sass)  (http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32).
+
+>>>>Linear gradient w3 school;
+
+
+
+
+
+
+
+
+
+
+
+*******https://jsfiddle.net/3o0h5oka/1904/
+
+******https://robots.thoughtbot.com/transitions-and-transforms
+
+
+
+

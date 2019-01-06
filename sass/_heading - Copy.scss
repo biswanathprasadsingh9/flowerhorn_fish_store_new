@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Magra:700');
+
+.main_heading{
+    background-image: url(../images/body/13355120198734-shutterstock-447070687.png);
+    height: 89vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: 30% 70%;
+    color: orange;
+
+        &-h{
+            font-family: 'Magra', sans-serif;
+                font-size: 90px;
+                color: white;
+                font-weight: 1200px;
+                top: 40%;
+                position: relative;
+        }
+
+        &-typer{
+            position: relative;
+            top: 35%;
+            display: inline-block;
+            align-content: center;
+
+            &-h1{
+                font-family: 'Magra', sans-serif;
+                font-size: 40px;
+                color: white;
+                font-weight: 100px;
+                
+
+                &-2nd{
+                    font-size: 40px;
+                    position: relative;
+                    text-transform: uppercase;
+                    font-weight: 1200px;
+                }
+            }
+
+            &-cursor{
+                position: relative;
+                // display: none;
+            }
+
+        }
+
+        &-button{
+              position: relative;
+              top: 36%;      
+        }
+
+
+   
+}
+
+
+.btn-danger{
+    background-color: transparent !important;
+    border-radius: 40px;
+    padding: 15px 30px;
+    font-size: 19px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+
+@media (min-width : 300px) and (max-width : 767px){
+    .main_heading{
+        
+            &-h{
+                font-size: 40px;
+            }
+
+
+            &-typer{
+                top: 25%;
+                
+    
+                &-h1{
+                    font-size: 24px;
+                    background-color: firebrick;
+    
+                    &-2nd{
+                    }
+                }
+    
+                &-cursor{
+                }
+    
+            }
+    
+            &-button{        
+            }
+     
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  @media (min-width : 768px) and (max-width : 991px) {
+    .main_heading{
+        
+    
+            &-typer{
+                top: 35%;
+               
+    
+                &-h1{
+                    font-size: 44px;
+                    background-color: deeppink;
+
+                    &-2nd{
+                    }
+                }
+    
+                &-cursor{
+                }
+    
+            }
+    
+            &-button{        
+            }
+     
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width : 992px) and (max-width : 1024px) {
+    .main_heading{
+        
+    
+            &-typer{
+                top: 35%;
+                
+    
+                &-h1{
+                    font-size: 74px;
+                    background-color: red;
+    
+                    &-2nd{
+                    }
+                }
+    
+                &-cursor{
+                }
+    
+            }
+    
+            &-button{        
+            }
+     
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width : 1024px) and (max-width : 1200px)  {
+    .main_heading{
+        
+    
+            &-typer{
+                top: 45%;
+                
+    
+                &-h1{
+                    font-size: 60px;
+                    background-color: blue;
+    
+                    &-2nd{
+                    }
+                }
+    
+                &-cursor{
+                }
+    
+            }
+    
+            &-button{        
+            }
+     
+    }
+  }
+
+  
+  
+  
+  

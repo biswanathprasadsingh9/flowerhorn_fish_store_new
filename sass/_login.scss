@@ -1,0 +1,101 @@
+// body{
+//     background-image: url(../images/body/login.jpg);
+//     background-size: cover;
+//     width: 100%;
+//     height: auto;
+// }
+
+.login{
+
+    &-heading{
+        font-size: 2rem;
+    }
+
+    &-box{
+        position: relative;
+        margin-top: 20%;
+        padding: 30px 50px;
+        background-color: rgba(white ,0.5);
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px; 
+    }
+
+    &-btn{
+        background-color: red !important;
+        border-radius: 0px !important;
+    }
+
+    &-forgot{
+        color: red;
+
+        &-link{
+            font-size: 15px;
+        }
+    }
+
+}
+
+input:invalid {////////
+    box-shadow: none;
+}
+
+.form-control{
+    height: 4rem;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 0px;  
+    
+    &:active{
+        background-color: aqua;
+        outline: none;
+    }
+
+    &:focus{
+        border: none;
+        outline: none;
+        border-bottom-color: 4px solid green;
+        background-color: rgba(255, 255, 255, 0);
+
+        border-color: #cccccc;/////hide input bordr
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    &:visited{
+        background-color: crimson;
+        outline: none;
+    }
+
+    &:hover{
+        background-color: crimson;
+        outline: none;
+    }
+
+    
+
+    // &:enabled{
+    //     background-color: rgba(255, 255, 255, 0.0);
+    // }
+}
+
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+
+.register{
+    background-color: rgba(white ,0.5);
+    text-align: center;
+    padding: 40px;
+    margin-top: 10px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+
+    &-btn{
+        color: red;
+    }
+    
+}

@@ -1,0 +1,12 @@
+.website_logo{
+    height: 80px;
+    width: auto;
+}
+
+@media (min-width : 300px) and (max-width : 767px){
+    .website_logo{
+        height: 50px;
+        width: auto;
+        padding-left: 1rem;
+    }
+  }

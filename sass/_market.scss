@@ -1,0 +1,262 @@
+
+@import url('https://fonts.googleapis.com/css?family=Chivo:900');
+
+.market{
+    margin-top: 6rem;
+
+    &-div{
+        transition: all .2s;
+
+        &-icon{
+            height: 7rem;
+            
+
+            &-text{
+                font-family: 'Chivo', sans-serif;
+                font-size: 47px;
+                margin-top: -15px;
+            }
+        }
+
+        // &:hover{
+        //     background: rgb(255,0,0);  
+        //     transform: scale(1.1);
+        //     -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+        //     -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+        //     box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+        //     border-radius: 1rem;
+        // }
+    }
+    
+
+    &-div:nth-child(2){
+        margin-top: 3rem;
+    }
+
+    &-div:nth-child(3){
+        margin-top: 3rem;
+    }
+
+    &-heading{
+        // float:right;
+        text-align: right;
+        font-family: 'Exo', sans-serif;
+        font-size: 70px;
+        margin-bottom: 2rem;
+        font-weight: 1200;
+        
+    }
+
+    &-desc{
+        margin-top: 3rem;
+        text-align: right;
+        font-size: 20px;
+    }
+
+    &-btn{
+        font-family: 'Exo', sans-serif;
+        margin-top: 3rem;
+        background-color: red;
+        float: right;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        padding: 1rem 3.5rem;
+        font-size: 1rem;
+        transition: all .5s;
+
+        &:hover{
+            transform: scale(1.1);
+            -webkit-box-shadow: 0px 0px 13px 1px rgba(255,0,0,1);
+-moz-box-shadow: 0px 0px 13px 1px rgba(255,0,0,1);
+box-shadow: 0px 0px 13px 1px rgba(255,0,0,1);
+        }
+    }
+}
+
+
+
+
+
+
+// ==============================Media Query================================ //
+
+@media (min-width : 300px) and (max-width : 767px){
+
+    .market{
+        margin-top: 3rem;
+    
+        &-div{
+            transition: all .2s;
+    
+            &-icon{
+                height: 6rem;
+                
+    
+                &-text{
+                    font-family: 'Chivo', sans-serif;
+                    font-size: 30px;
+                    margin-top: -15px;
+                }
+            }
+    
+            // &:hover{
+            //     background: rgb(255,0,0);  
+            //     transform: scale(1.1);
+            //     -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+            //     -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+            //     box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+            //     border-radius: 1rem;
+            // }
+        }
+        
+    
+        &-div:nth-child(2){
+            margin-top: 3rem;
+        }
+    
+        &-div:nth-child(3){
+            margin-top: 3rem;
+        }
+    
+        &-heading{
+            // float:right;
+            text-align: right;
+            font-family: 'Exo', sans-serif;
+            font-size: 35px;
+            margin-bottom: 2rem;
+            font-weight: 1200;
+            margin-top: 2em;
+            
+        }
+    
+        &-desc{
+            margin-top: 2rem;
+            text-align: right;
+            font-size: 15px;
+            text-align: justify;
+            padding-left: 9px;
+            padding-right: 9px;
+        }
+    
+        &-btn{
+            font-family: 'Exo', sans-serif;
+            margin-top: 1rem;
+            background-color: red;
+            float: right;
+            border-top-left-radius: 2rem;
+            border-bottom-left-radius: 2rem;
+            padding: .9rem 2.5rem;
+            font-size: .7rem;
+            transition: all .5s;
+    
+            &:hover{
+                transform: scale(1.1);
+                -webkit-box-shadow: 0px 0px 13px 1px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 13px 1px rgba(255,0,0,1);
+    box-shadow: 0px 0px 13px 1px rgba(255,0,0,1);
+            }
+        }
+    }
+    
+
+
+}
+
+  
+
+
+  @media (min-width : 768px) and (max-width : 991px) {
+
+    .market{
+        margin-top: 6rem;
+    
+        &-div{
+            transition: all .2s;
+    
+            &-icon{
+                height: 5rem;
+                
+    
+                &-text{
+                    font-family: 'Chivo', sans-serif;
+                    font-size: 34px;
+                    margin-top: -8px;
+                }
+            }
+    
+            // &:hover{
+            //     background: rgb(255,0,0);  
+            //     transform: scale(1.1);
+            //     -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+            //     -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+            //     box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+            //     border-radius: 1rem;
+            // }
+        }
+        
+    
+        &-div:nth-child(2){
+            margin-top: 3rem;
+        }
+    
+        &-div:nth-child(3){
+            margin-top: 3rem;
+        }
+    
+        &-heading{
+            // float:right;
+            text-align: right;
+            font-family: 'Exo', sans-serif;
+            font-size: 34px;
+            margin-bottom: 2rem;
+            font-weight: 1200;
+            
+        }
+    
+        &-desc{
+            margin-top: 3rem;
+            text-align: justify;
+            font-size: 15px;
+        }
+    
+        &-btn{
+            font-family: 'Exo', sans-serif;
+            margin-top: 1rem;
+            background-color: red;
+            float: right;
+            border-top-left-radius: 2rem;
+            border-bottom-left-radius: 2rem;
+            padding: .7rem 1.8rem;
+            font-size: .8rem;
+            transition: all .5s;
+    
+            &:hover{
+                transform: scale(1.1);
+                -webkit-box-shadow: 0px 0px 13px 1px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 13px 1px rgba(255,0,0,1);
+    box-shadow: 0px 0px 13px 1px rgba(255,0,0,1);
+            }
+        }
+    }
+
+
+ 
+}
+
+
+
+
+  @media (min-width : 992px) and (max-width : 1024px) {
+
+
+   
+}
+
+
+
+
+
+  @media (min-width : 1025px) and (max-width : 1200px)  {
+
+ 
+}

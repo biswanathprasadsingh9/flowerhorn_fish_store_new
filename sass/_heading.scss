@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Magra:700');
+
+.main_heading{
+    background-image: url(../images/body/13355120198734-shutterstock-447070687.png);
+    height: 116vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 70%;
+    color: orange;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 77%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 77%, 0% 100%);
+
+//     -webkit-clip-path: circle(86.2% at 44% 0);
+// clip-path: circle(86.2% at 44% 0);
+
+//     -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 96%, 0 80%, 0 0);
+// clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 96%, 0 80%, 0 0);
+
+// -webkit-clip-path: polygon(50% 0, 100% 0, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 0 0);
+// clip-path: polygon(50% 0, 100% 0, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 0 0);
+
+        &-h{
+            font-size: 90px;
+            font-family: 'Magra', sans-serif;
+            color: white;
+            font-weight: 1200px;
+            position: relative;
+            padding-top: 20rem;
+        }
+
+        &-typer{
+            
+
+            &-h1{
+                font-family: 'Magra', sans-serif;
+                font-size: 40px;
+                color: white;
+                font-weight: 100px;
+
+                &-2nd{
+                    font-size: 40px;
+                    position: relative;
+                    text-transform: uppercase;
+                    font-weight: 1200px;
+                }
+            }
+
+            &-cursor{
+                
+            }
+
+        }
+
+        &-button{
+                
+        }
+
+
+   
+}
+
+
+.btn-danger{
+    background-color: transparent !important;
+    border-radius: 40px;
+    padding: 15px 30px;
+    font-size: 19px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+// ==============================Media Query================================ //
+
+@media (min-width : 300px) and (max-width : 767px){
+    .main_heading{
+        
+            &-h{
+                font-size: 40px;
+                padding-top: 12rem;
+            }
+
+
+            &-typer{
+    
+                
+    
+                &-h1{
+                    font-size: 20px;
+    
+                    &-2nd{
+                        font-size: 25px;
+                    }
+                }
+    
+                &-cursor{
+                }
+    
+            }
+    
+            &-button{        
+            }
+     
+    }
+  }
+
+  .btn-danger{
+    background-color: transparent !important;
+    border-radius: 40px;
+    padding: 15px 30px;
+    font-size: 13px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+  @media (min-width : 768px) and (max-width : 991px) {
+    .main_heading{
+        
+        &-h{
+            font-size: 65px;
+            padding-top: 13rem;
+        }
+
+
+        &-typer{
+
+            &-h1{
+                font-size: 35px;
+                // background-color: aqua;
+
+                &-2nd{
+                    font-size: 40px;
+                }
+            }
+
+            &-cursor{
+            }
+
+        }
+
+        &-button{        
+        }
+ 
+    }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width : 992px) and (max-width : 1024px) {
+    .main_heading{
+        
+        &-h{
+            font-size: 65px;
+            padding-top: 13rem;
+        }
+
+
+        &-typer{
+
+            &-h1{
+                font-size: 35px;
+                // background-color: forestgreen;
+
+                &-2nd{
+                    font-size: 40px;
+                }
+            }
+
+            &-cursor{
+            }
+
+        }
+
+        &-button{        
+        }
+ 
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width : 1024px) and (max-width : 1200px)  {
+    .main_heading{
+        
+        &-h{
+            font-size: 65px;
+            padding-top: 13rem;
+        }
+
+
+        &-typer{
+
+            &-h1{
+                font-size: 35px;
+                // background-color: forestgreen;
+
+                &-2nd{
+                    font-size: 40px;
+                }
+            }
+
+            &-cursor{
+            }
+
+        }
+
+        &-button{        
+        }
+ 
+    }
+  }
+
+
+
+
+
+
+  
+  
+  
+  

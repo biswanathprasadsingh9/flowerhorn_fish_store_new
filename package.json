@@ -1,0 +1,21 @@
+{
+  "name": "flowerhornfishstore",
+  "version": "1.0.0",
+  "description": "flowerhornfishstore",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Biswanath Prasad Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jarallax": "^1.10.6",
+    "jquery": "^3.3.1",
+    "mdbootstrap": "^4.6.0",
+    "typer-js": "^5.0.1"
+  }
+}
