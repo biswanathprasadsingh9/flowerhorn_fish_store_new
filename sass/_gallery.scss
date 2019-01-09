@@ -1,0 +1,62 @@
+.gallery{
+    margin-top: 6rem;
+
+    &-heading{
+
+    font-family: 'Exo', sans-serif;
+    font-size: 70px;
+    margin-bottom: 2rem;
+    }
+    
+}
+
+.jarallaxv{
+    margin-top: 131px;
+    height: 400px;
+}
+
+
+
+
+@include respond(Phone){
+    .gallery{
+        margin-top: 6rem;
+    
+        &-heading{
+    
+        font-family: 'Exo', sans-serif;
+        font-size: 70px;
+        margin-bottom: 2rem;
+        }
+        
+    }
+    
+    .jarallaxv{
+        display: none;
+        height: 100px;
+    }
+
+}
+
+
+
+
+@include respond(Tablet){
+    .gallery{
+        margin-top: 3rem;
+    
+        &-heading{
+    
+        font-family: 'Exo', sans-serif;
+        font-size: 34px;
+        margin-bottom: 2rem;
+        }
+        
+    }
+    
+    .jarallaxv{
+        display: none;
+        height: 100px;
+    }
+
+}

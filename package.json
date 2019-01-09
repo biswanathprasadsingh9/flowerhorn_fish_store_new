@@ -4,18 +4,25 @@
   "description": "flowerhornfishstore",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
   },
   "author": "Biswanath Prasad Singh",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "autoprefixer": "^9.4.4",
+    "concat": "^1.0.3",
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
     "jarallax": "^1.10.6",
     "jquery": "^3.3.1",
     "mdbootstrap": "^4.6.0",
-    "typer-js": "^5.0.1"
+    "owl.carousel": "^2.3.4",
+    "typer-js": "^5.0.1",
+    "unitegallery": "^1.7.28"
   }
 }

@@ -1,4 +1,81 @@
 
-$mobile: "(min-width : 320px) and (max-width : 480px)";
-$tablet: "(min-width: 768px) and (max-width: 1024px)";
-$desktop: "(min-width: 1024px)";
+$Phone: 767px;
+$Tablet: 991px;
+$Laptop: 1024px;
+$Desktop: 1200px;
+$WideScreen: 1800px;
+
+
+// @mixin respond-Phone {
+//     @media (max-width: 767px) { @content };
+// }
+
+@mixin respond($breakpoint) {
+
+    @if $breakpoint == Phone {
+        @media (max-width: $Phone) { @content };
+    }
+
+    @if $breakpoint == Tablet {
+        @media (max-width: $Tablet) { @content };
+    }
+
+    @if $breakpoint == Laptop {
+        @media (max-width: $Laptop) { @content };
+    }
+
+    @if $breakpoint == Desktop {
+        @media (max-width: $Desktop) { @content };
+    }
+
+    @if $breakpoint == WideScreen {
+        @media (max-width: $WideScreen) { @content };
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @mixin Phone {
+//     @media (min-width : 300px) and (max-width : 767px) { @content };
+// }
+
+// @mixin Tab1 {
+//     @media (min-width : 768px) and (max-width : 991px) { @content };
+// }
+
+// @mixin Tab2 {
+//     @media (min-width : 992px) and (max-width : 1024px) { @content };
+// }
+
+// @mixin Desktop {
+//     @media (min-width : 1025px) and (max-width : 1200px) { @content };
+// }
+
+
+/////////////////////////////////////////////
+
+
+
+
+
+
+
+
+

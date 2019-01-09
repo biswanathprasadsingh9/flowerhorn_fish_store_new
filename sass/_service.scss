@@ -1,0 +1,133 @@
+.service{
+    
+    &-heading{
+        font-family: 'Exo', sans-serif;
+        font-size: 70px;
+        padding-bottom: 5rem;
+
+        &-sub{
+            font-family: 'Exo', sans-serif;
+            font-size: 30px;
+            margin-bottom: 1rem;
+        }
+    }
+
+    &-desc{
+        font-size: 20px;
+        width: 85%;
+        text-align: justify;
+    }
+
+    &-img1{
+        width: 50%;
+    }
+
+    &-img2{
+        width: 56%;
+    }
+
+    &-img3{
+        width: 51%;
+    }
+
+    &-box{
+        transition: all .5s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+
+
+
+@include respond(Phone){
+    .service{
+    
+        &-heading{
+            font-family: 'Exo', sans-serif;
+            font-size: 70px;
+            padding-bottom: 5rem;
+    
+            &-sub{
+                font-family: 'Exo', sans-serif;
+                font-size: 30px;
+                margin-bottom: 1rem;
+            }
+        }
+    
+        &-desc{
+            font-size: 20px;
+            width: 85%;
+            text-align: justify;
+        }
+    
+        &-img1{
+            width: 50%;
+        }
+    
+        &-img2{
+            width: 56%;
+        }
+    
+        &-img3{
+            width: 51%;
+        }
+    
+        &-box{
+            transition: all .5s;
+    
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+}
+
+
+@include respond(Tablet){
+    .service{
+    
+        &-heading{
+            font-family: 'Exo', sans-serif;
+            font-size: 34px;
+            padding-bottom: 2rem;
+            margin-top: 3rem;
+    
+            &-sub{
+                font-family: 'Exo', sans-serif;
+                font-size: 30px;
+                margin-bottom: 1rem;
+            }
+        }
+    
+        &-desc{
+            font-size: 15px;
+            width: 85%;
+            text-align: justify;
+        }
+    
+        &-img1{
+            width: 50%;
+        }
+    
+        &-img2{
+            width: 56%;
+        }
+    
+        &-img3{
+            width: 51%;
+        }
+    
+        &-box{
+            transition: all .5s;
+    
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+}
